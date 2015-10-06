@@ -1,0 +1,13 @@
+p{
+	color: #F90;
+	margin-left: 50px;
+	padding-left: 20px;
+	border-left: solid 22px #930;
+}
+.estilopagina{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #960;
+	width: 960px;
+	margin: 0 auto;
+}

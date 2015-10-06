@@ -1,0 +1,43 @@
+p{
+	color: #666;
+	font-size: 1em;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	text-align: justify;
+	margin-left: 100px;
+}
+
+h1,h2,h3{
+	color: #9AD123;
+	font-family: Baskerville, "Palatino Linotype", Times, serif;
+	border-top: 2px solid #3CC23C;
+	padding-top: 7px;
+	padding-left: 100px;
+}
+
+.atencion{
+	color: #000;
+	border: 2px dashed #633;
+	background-color: #FF9;
+	margin-top: 25px;
+	margin-bottom: 35px;
+	padding: 20px;
+}
+.atencion strong{
+	color: #BDBD0F;
+}
+
+#cuerpo{
+	background-color: #FBF8A9;
+	background-image: url("./imagenes/fondo.jpg");
+	background-repeat: repeat-y;
+	background-position: center;
+	width:760px;
+	margin: 0 auto;
+}
+
+h1 + p{
+	color:#F60;
+	font-size: 1.2em;
+	line-height: 140%;
+	margin-top: 20px;
+}

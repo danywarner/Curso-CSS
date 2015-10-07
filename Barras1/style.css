@@ -18,6 +18,44 @@ body {
 	padding: 20px;
 }
 
+#barra{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 185px;
+	border-bottom: 1px solid #999;
+}
+
+#barra a{
+	color: #000;
+	font-size: 11px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 1px solid #999;
+	padding: 7px 5px;
+	display: block;
+	background-color: #e7e7e7;
+	background-image: url(images/fondolink.png);
+	background-repeat: no-repeat;
+	background-position: 0 2px;
+	padding: 7px 5px 7px 30px;
+	border-bottom: none;
+}
+#barra a:hover{
+	font-weight: bold;
+	background-color: #07F5F7;
+	background-position: 3px 50%;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

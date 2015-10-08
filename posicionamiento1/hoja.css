@@ -143,10 +143,80 @@ h1, h2, h3, p, ul {
 	color: #000000;
 }
 
+#banner #logobanner{
+	position: absolute;
+	left: -22px;
+	top: -5px;
+}
+#banner{
+	position: relative;
+}
 
+body{
+	margin: 20px;
+}
 
+#banner #logo{
+	margin:30px;
+}
 
+#banner ul{
+	position: absolute;
+	right:60px;
+	bottom:5px;
+}
+#principal .foto{
+	float:right;
+	width:200px;
+	margin-left: 15px;
+	margin-bottom: 2px;
+	position: relative;
+}
+#principal .foto p{
+	background-color: #FFF;
+	border: 1px dashed  #666;
+	font-weight: bold;
+	font-size: 13px;
+	text-align: center;
+	padding: 5px;
+	width:168px;
+	left:10px;
+	bottom:10px;
+	position: absolute;
+}
 
+#contenidoPrincipal{
+	position: relative;
+	clear:both;
+}
+
+#barralateral{
+	position: absolute;
+	top: 15px;
+	left:0px;
+	width: 170px;
+}
+#advertencias{
+	position: absolute;
+	top:15px;
+	right: 5px;
+	width: 125px;
+}
+
+#principal{
+	margin-left: 170px;
+	margin-right: 135px;
+	padding: 0px 15px 15px 20px;
+	border: 1px solid #666;
+	border-top: none;
+	border-bottom: none;
+}
+
+#contenedor{
+	position: relative;
+	width:1300px;
+	margin: auto;
+}
 
 
 

@@ -47,6 +47,16 @@ body {
 	background-position: 3px 50%;
 }
 
+#inicio #linkinicio,
+#caracteristicas #linkcaracteristicas,
+#expertos #linkexpertos,
+#preguntas #linkpreguntas,
+#proyectos #linkproyectos,
+#foros #linkforos{
+	background-color: #FFF;
+	background-position: 97% 100%;
+	font-weight: bold;
+}
 
 
 

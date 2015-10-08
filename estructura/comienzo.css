@@ -201,8 +201,14 @@ h2 {
 	line-height: 110%;
 }
 
-body{
+/*body{
 	background: url(images/bg/bg_column.gif) repeat-y right top;
+}*/
+
+#contenedor{
+	width: 960px;
+	background: url(images/bg/bg_column.gif) repeat-y right top;
+	margin: auto;
 }
 
 

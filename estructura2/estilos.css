@@ -215,11 +215,40 @@ div.natEx {
 #contenedor{
 	border-right: 2px solid #000;
 	border-left: 2px solid #000;
-	width:80%;
+	width:760px;
 	margin: auto;
+	background: #FFF url(images/column_bg.png) repeat-y top right ;
+}
+body{
+	background: #e6e6e6 url(images/page_bg.png) repeat-y center;
+	margin: 0;
 }
 
+#principal{
+	float: left;
+	width: 419px;
+	padding-left: 10px;
+	border-left: 1px dashed #999999;
+	margin-left: 160px;
+}
+#noticias{
+	float:left;
+	width:160px;
+	margin-left: -590px;
+}
 
+#nav{
+	float:right;
+	width: 160px;
+}
+#legal{
+	clear: both;
+	margin-right: 160px;
+	padding: 5px 5px 160px 20px;
+	border-top: 1px dashed #666;
+	font-weight: bold;
+	color:#666;
+}
 
 
 

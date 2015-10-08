@@ -22,8 +22,11 @@ body {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	width: 185px;
-	border-bottom: 1px solid #999;
+	/*width: 185px;*/
+	/*border-bottom: 1px solid #999;*/
+	border-left: 1px solid #999;
+	overflow:hidden;
+
 }
 
 #barra a{
@@ -39,7 +42,8 @@ body {
 	background-repeat: no-repeat;
 	background-position: 0 2px;
 	padding: 7px 5px 7px 30px;
-	border-bottom: none;
+	/*border-bottom: none;*/
+	border-left: none;
 }
 #barra a:hover{
 	font-weight: bold;
@@ -56,6 +60,11 @@ body {
 	background-color: #FFF;
 	background-position: 97% 100%;
 	font-weight: bold;
+}
+
+#barra li{
+	float:left;
+	width:20em;
 }
 
 

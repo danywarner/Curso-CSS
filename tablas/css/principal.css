@@ -339,13 +339,32 @@ a:hover {
 #inventario{
 	font-family: "Trebuchet", Arial, Helvetica, sans-serif;
 	width: 100%;
+	border-collapse: collapse;
 }
 
 #inventario caption{
 	font-size: 1.4em;
+	text-align: right;
+	padding-top: 25px;
 }
 
+#inventario td, #inventario th{
+	font-size: 1.4em;
+	border: 1px solid #030;
+	padding: 3px 7px 2px 7px;
+}
+#inventario th{
+	text-transform: uppercase;
+	text-align: left;
+	padding-top: 8px;
+	padding-bottom: 5px;
+	background: url(../imagenes/bg_th.png) no-repeat left top;
+	color: #FFF; 
+}
 
+#inventario tr.alternas td{
+	background-color: #FFF;
+} 
 
 
 

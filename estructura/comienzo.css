@@ -165,3 +165,70 @@ h2 {
 	padding: 5px 0 0 5px;
 	margin-right: 200px;
 }
+
+#barralateral{
+	float:left;
+	width: 160px;
+	margin-top: 10px;
+}
+
+#principal{
+	margin-left: 180px;
+	margin-right: 200px;
+}
+
+#secundario{
+	float:right;
+	width:180px;
+	margin-top: 10px;
+	background-color: #294e56;
+}
+#secundario *{
+	color:white;
+}
+#secundario h3{
+	font-size: 1.5em;
+	background-color: #73AFB7;
+	padding: 3px 5px 3px 10px;
+}
+#secundario h4{
+	font-size: 1.2em;
+	margin: 10px 10px 5px 10px;
+}
+#secundario p{
+	font-size: 1.2em;
+	margin: 3px 10px 10px 10px;
+	line-height: 110%;
+}
+
+body{
+	background: url(images/bg/bg_column.gif) repeat-y right top;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

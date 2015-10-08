@@ -332,13 +332,35 @@ table {
 	font-size: 0.85em;
 }
 
+#subForm{
+	font-size: .8em;
+}
+
+#subForm .etiq{
+	float: left;
+	width: 230px;
+	text-align: right;
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+#suscribe{
+	margin-left: 440px;
+	background-color: #CBD893;
+	font-family: "Century Gothic", "Gill Sans", Arial, sans-serif;
+}
 
 
-
-
-
-
-
+#nombre, #email, #comentarios{
+	background-color: #FBEF99;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: .9em;
+	width:270px;
+	margin-top: -3px;
+}
+#nombre:focus, #email:focus, #comentarios:focus, #refer:focus{
+	background-color: #FDD041;
+}
 
 
 
